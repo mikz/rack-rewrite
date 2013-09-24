@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["John Trupiano"]
-  s.date = Time.now.to_date.to_s
+  s.date = '2013-09-24'
   s.description = %q{A rack middleware for enforcing rewrite rules. In many cases you can get away with rack-rewrite instead of writing Apache mod_rewrite rules.}
   s.email = %q{jtrupiano@gmail.com}
   s.extra_rdoc_files = [
